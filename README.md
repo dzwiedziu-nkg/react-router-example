@@ -1,7 +1,7 @@
 # react-router-example
 Repository for the blog post purpose
 
-# Preparation
+## Preparation
 
 Before first use, run:
 
@@ -9,7 +9,7 @@ Before first use, run:
 npm install
 ```
 
-# Usage
+## Usage
 
 To run application:
 
