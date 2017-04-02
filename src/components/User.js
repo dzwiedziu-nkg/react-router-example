@@ -2,12 +2,12 @@ import React, { PropTypes } from 'react';
 
 class User extends React.Component {
   static propTypes = {
-    params: PropTypes.object
+    match: PropTypes.object
   };
 
   render () {
     return (
-      <p>{`User id is: ${this.props.params.userId}`}</p>
+      <p>{`User id is: ${this.props.match.params.userId}`}</p>
     );
   }
 }
